@@ -1,2 +1,2 @@
 num = 85
-type(num)
+print(type(num))
