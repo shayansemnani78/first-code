@@ -1,5 +1,7 @@
-weight = 85
-height = 1
+weight = input("pls enter your weight :")
+height = input("pls enter your height :")
+weight = int(weight)
+height = float(height)
 body_mass_index = weight/(height**2)
 
 print(body_mass_index)
