@@ -5,10 +5,10 @@ height = float(height)
 body_mass_index = weight/(height**2)
 
 print(body_mass_index)
-if body_mass_index < 20:
+if body_mass_index <= 20:
     print("low weight")
 
-elif 20 < body_mass_index < 25:
+elif 20 < body_mass_index <= 25:
     print("normal")
 
 else:
