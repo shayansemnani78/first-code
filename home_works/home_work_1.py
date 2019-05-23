@@ -1,5 +1,5 @@
 weight=input("pls enter your weight!!!")
-weight=int(weight)
+weight=float(weight)
 height=input("pls input your height")
 height=float(height)
 BMI= weight/(height**2)
