@@ -1,4 +1,6 @@
-secret_number=9
+import random
+secret_number = random.randint(1, 100)
+
 while True:
     x = int(input("pls enter your number"))
     if x > secret_number:
