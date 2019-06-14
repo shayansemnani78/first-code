@@ -26,11 +26,11 @@
 # k = 0
 # for i in range(1, 5 + 1):  # row 6
 #
-    Print spaces
+    #Print spaces
     # for j in range(i, 5):
     #     print(' ', end='')
     #
-        Print #
+     #   Print #
     # while (k != (2 * i - 1)):
     #     if (k == 0 or k == 2 * i - 2):
     #         print('*', end='')
