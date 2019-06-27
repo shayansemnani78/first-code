@@ -13,9 +13,9 @@ for i in range(1,number_of_numbers):
     b = input_list[i-1]
     c = a-b
     duration.append(c)
-    if c < a:
+    if c < b:
         print("s")
-    elif c > a:
+    elif c > b:
         print("l")
     else:
         print("m")
