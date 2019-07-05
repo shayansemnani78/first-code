@@ -8,11 +8,11 @@ class motevazi:
 
     def ertefae_calc (self):
         ertefae=(math.asin(math.radians(self.angle)) * self.border_2)
-        self.ertefae=ertefae
+        return ertefae
 
 
     def space (self):
-        print(self.ertefae * self.border_1 * self.border_2)
+        print(self.ertefae_calc() * self.border_1)
 
     def area (self):
         print(self.border_2 * 2 + self.border_1 * 2)
