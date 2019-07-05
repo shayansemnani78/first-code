@@ -20,4 +20,3 @@ for i in range(1,number_of_numbers):
     else:
         print("m")
 
-print(duration)
